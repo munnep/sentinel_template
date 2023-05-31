@@ -1,0 +1,44 @@
+id = "run-Z3JYUE76vmWTVuHt"
+created_at = "2023-05-31T07:54:11.189Z"
+created_by = "patrickmunne"
+message = "Triggered via CLI"
+commit_sha = undefined
+speculative = false
+is_destroy = false
+refresh = true
+refresh_only = false
+replace_addrs = null
+target_addrs = null
+project = {
+	"id":   "prj-VYANHY3FXx6fQsf9",
+	"name": "Default Project",
+}
+
+variables = {
+	"SENTINEL_PARAM_tfversion": {
+		"category":  "env",
+		"sensitive": false,
+	},
+}
+
+organization = {
+	"name": "patrickmunne",
+}
+
+workspace = {
+	"auto_apply":        false,
+	"created_at":        "2023-05-31T07:42:25.547Z",
+	"description":       null,
+	"execution_mode":    "remote",
+	"id":                "ws-zwX9qZntehg4yBo8",
+	"name":              "112639",
+	"tags":              [],
+	"vcs_repo":          null,
+	"working_directory": "",
+}
+
+cost_estimate = {
+	"delta_monthly_cost":    "0.0",
+	"prior_monthly_cost":    "0.0",
+	"proposed_monthly_cost": "0.0",
+}

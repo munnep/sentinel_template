@@ -1,0 +1,46 @@
+import "strings"
+
+providers = {
+	"null": {
+		"alias":               "",
+		"config":              {},
+		"full_name":           "registry.terraform.io/hashicorp/null",
+		"module_address":      "",
+		"name":                "null",
+		"provider_config_key": "null",
+		"version_constraint":  "",
+	},
+}
+
+resources = {
+	"null_resource.test": {
+		"address":             "null_resource.test",
+		"config":              {},
+		"count":               {},
+		"depends_on":          [],
+		"for_each":            {},
+		"mode":                "managed",
+		"module_address":      "",
+		"name":                "test",
+		"provider_config_key": "null",
+		"provisioners":        [],
+		"type":                "null_resource",
+	},
+}
+
+provisioners = {}
+
+variables = {}
+
+outputs = {}
+
+module_calls = {}
+
+strip_index = func(addr) {
+	s = strings.split(addr, ".")
+	for s as i, v {
+		s[i] = strings.split(v, "[")[0]
+	}
+
+	return strings.join(s, ".")
+}
