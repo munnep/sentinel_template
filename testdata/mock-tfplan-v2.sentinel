@@ -1,4 +1,4 @@
-terraform_version = "1.3.9"
+terraform_version = "1.3.0"
 
 planned_values = {
 	"outputs": {},
@@ -113,5 +113,5 @@ raw = {
 			"type":          "null_resource",
 		},
 	],
-	"terraform_version": "1.3.9",
+	"terraform_version": "1.3.0",
 }
