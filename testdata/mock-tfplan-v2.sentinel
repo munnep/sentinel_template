@@ -1,0 +1,117 @@
+terraform_version = "1.3.9"
+
+planned_values = {
+	"outputs": {},
+	"resources": {
+		"null_resource.test": {
+			"address":        "null_resource.test",
+			"depends_on":     [],
+			"deposed_key":    "",
+			"index":          null,
+			"mode":           "managed",
+			"module_address": "",
+			"name":           "test",
+			"provider_name":  "registry.terraform.io/hashicorp/null",
+			"tainted":        false,
+			"type":           "null_resource",
+			"values": {
+				"triggers": null,
+			},
+		},
+	},
+}
+
+variables = {}
+
+resource_changes = {
+	"null_resource.test": {
+		"address": "null_resource.test",
+		"change": {
+			"actions": [
+				"create",
+			],
+			"after": {
+				"triggers": null,
+			},
+			"after_unknown": {
+				"id": true,
+			},
+			"before": null,
+		},
+		"deposed":        "",
+		"index":          null,
+		"mode":           "managed",
+		"module_address": "",
+		"name":           "test",
+		"provider_name":  "registry.terraform.io/hashicorp/null",
+		"type":           "null_resource",
+	},
+}
+
+output_changes = {}
+
+raw = {
+	"configuration": {
+		"provider_config": {
+			"null": {
+				"full_name": "registry.terraform.io/hashicorp/null",
+				"name":      "null",
+			},
+		},
+		"root_module": {
+			"resources": [
+				{
+					"address":             "null_resource.test",
+					"mode":                "managed",
+					"name":                "test",
+					"provider_config_key": "null",
+					"schema_version":      0,
+					"type":                "null_resource",
+				},
+			],
+		},
+	},
+	"format_version": "1.1",
+	"planned_values": {
+		"root_module": {
+			"resources": [
+				{
+					"address":          "null_resource.test",
+					"mode":             "managed",
+					"name":             "test",
+					"provider_name":    "registry.terraform.io/hashicorp/null",
+					"schema_version":   0,
+					"sensitive_values": {},
+					"type":             "null_resource",
+					"values": {
+						"triggers": null,
+					},
+				},
+			],
+		},
+	},
+	"resource_changes": [
+		{
+			"address": "null_resource.test",
+			"change": {
+				"actions": [
+					"create",
+				],
+				"after": {
+					"triggers": null,
+				},
+				"after_sensitive": {},
+				"after_unknown": {
+					"id": true,
+				},
+				"before":           null,
+				"before_sensitive": false,
+			},
+			"mode":          "managed",
+			"name":          "test",
+			"provider_name": "registry.terraform.io/hashicorp/null",
+			"type":          "null_resource",
+		},
+	],
+	"terraform_version": "1.3.9",
+}
