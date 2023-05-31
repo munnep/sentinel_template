@@ -23,8 +23,9 @@ Access to a TFE/TFC environment with admin permissions to create policy set and 
 ## Configuring and using the policy
 
 - Fork this repository to your own environment
+- Clone it to your local machine. Change the url to your own repo
 ```
-git clone https://github.com/munnep/for_loop.git
+git clone https://github.com/munnep/sentinel_template.git
 ```
 - Login to your TFE environment
 - Create a new ClI driven workspace where we test the sentinel policy  
